@@ -516,3 +516,17 @@ main figure img { max-height: 17rem; }
     .media-section > .intro-copy { flex-basis: 100%; }
     main figure img { max-height: 15rem; }
 }
+
+/* Keep paired introductory photos together instead of stacking them. */
+.media-section > .intro-gallery {
+    flex-basis: 30rem;
+    max-width: 44%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.intro-gallery > figure:only-child { grid-column: 1 / -1; }
+@media (max-width: 800px) {
+    .media-section > .intro-gallery {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
