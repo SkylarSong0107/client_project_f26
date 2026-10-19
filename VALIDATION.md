@@ -51,3 +51,9 @@ Partner links and submission preparation, October 19, 2026:
 - Latest four HTML pages revalidated with W3C Nu: no messages. Referenced image paths match Git-tracked case-sensitive filenames.
 - Updated only filled template answers in the original writeup; retained original prompts, styles, and cost table. Rendered all five pages and inspected them. Template table pagination retained to honor format preservation.
 - WAVE/axe and personal time/cost entries intentionally left to the user.
+
+Publication, October 19, 2026:
+
+- User approved deployment. Published db77fff to main and verified four live HTML pages plus style.css match accepted local files exactly.
+- Local submission document updated with supplied date, contact information, seven work-hour entries, 11-hour total, and $1,210 total. All five rendered pages visually inspected.
+- No new WAVE/axe screenshots provided; Appendix A remains pending and accessibility prose accurately reflects that status.
