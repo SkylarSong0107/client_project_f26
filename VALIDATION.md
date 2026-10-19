@@ -22,3 +22,13 @@ Photo sizing revision, October 18, 2026:
 - Desktop photos are capped at 24rem / 36% width and 17rem height, with compact mobile sizing.
 - git diff --check passed. Current visual review could not run: sandbox blocked the local HTTP server; browser blocks file URLs.
 - No production deployment performed; user review remains pending.
+
+Photo and layout revision, October 19, 2026:
+
+- Six user-supplied photos and two additional course-portal photos added; 16 unique content photos across four pages. The repeated navigation logo is excluded from this count.
+- All image paths exist and all images have descriptive alt text. New photos resized to at most 1200 pixels.
+- Desktop Chrome visual review covered all four pages. Paired introductory photos remain side by side; long content uses alternating image columns. Short resource lists remain cohesive text blocks.
+- At 390px, all four pages have document width 390px and all content images load successfully. Mobile screenshots of starting and campus-partner pages inspected.
+- No build step is needed for this static HTML/CSS website; latest files run on the local HTTP preview at port 4173.
+- WAVE, axe, and external HTML validation have not been rerun for this revision.
+- Production deployment is pending user acceptance of this preview, as requested.
