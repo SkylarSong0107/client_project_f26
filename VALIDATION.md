@@ -57,3 +57,13 @@ Publication, October 19, 2026:
 - User approved deployment. Published db77fff to main and verified four live HTML pages plus style.css match accepted local files exactly.
 - Local submission document updated with supplied date, contact information, seven work-hour entries, 11-hour total, and $1,210 total. All five rendered pages visually inspected.
 - No new WAVE/axe screenshots provided; Appendix A remains pending and accessibility prose accurately reflects that status.
+
+Accessibility evidence supplied, October 19, 2026:
+
+- Added eight user-supplied screenshots to Appendix A, paired by page. The nine-page submission document was rendered and every page visually inspected.
+- Axe screenshots identify all four live GitHub Pages URLs: 0 automatic issues, WCAG 2.1 AA, Best Practices off.
+- WAVE screenshots show 0 errors and 0 contrast errors on all four pages. Home, Preparing, and Starting each have 1 redundant-link alert; Campus Partners has 3.
+- The Starting WAVE screenshot visibly references 127.0.0.1:4173. Other WAVE screenshots lack visible page URLs. These are local or unconfirmed-address evidence, not confirmed live-site scans. Four live WAVE screenshots with visible URLs remain needed.
+- Automated results do not establish manual accessibility compliance. Redundant-link alerts require review.
+- Updated existing writeup answers using simple English. The repository document omits personal contact details; the local submission copy includes the supplied contacts, date, 11 hours, and $1,210 total.
+- No website source changed in this evidence update; no new site deployment required.

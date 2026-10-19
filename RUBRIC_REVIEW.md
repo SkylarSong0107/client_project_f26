@@ -9,8 +9,8 @@ Source: Canvas assignment 3188410, Client Project - Mobile View Complete (50 poi
 | Navigation | 3 | Same four links and order, visible active underline/background and aria-current, mobile wrapping and generous targets. Visual grade is subjective. |
 | Footer | 2 | Identical shared content across four pages; focus outline adjusted for navy background. |
 | Look and Feel | 8 | Navy/maize branding, consistent typography, larger unique photos, first photos on right, alternating following rows, structured partner comparison. Visual grade is subjective. |
-| Accessibility | 10 | Four HTML pages passed W3C Nu with no messages. Descriptive alt text and reduced-motion handling present. Current WAVE and axe checks/screenshots are still required; full marks cannot be claimed. |
-| Mobile Deliverable Writeup | 20 | Design answers updated in the original template using simple English; original prompts and formatting retained. User must add current validation screenshots, actual date/contact information and time/cost entries. Final published status must be updated after approval. |
+| Accessibility | 10 | Four HTML pages passed W3C Nu with no messages. Descriptive alt text and reduced-motion handling present. Live axe screenshots show 0 automatic issues on four pages. Supplied WAVE screenshots show 0 errors/contrast errors, with 1–3 redundant-link alerts; live WAVE evidence and manual review remain needed. |
+| Mobile Deliverable Writeup | 20 | Design answers updated in the original template using simple English; original prompts and formatting retained. Eight screenshots, supplied date/contact information, 11 hours and $1,210 total are filled. Published URL is current. Live WAVE evidence remains outstanding; personal contacts are only in the submission copy. |
 
 ## Deduction checks
 
@@ -18,9 +18,8 @@ Two shared CSS files only (reset plus style); no inline styling; viewport meta t
 
 ## Remaining submission work
 
-1. Run WAVE and axe on the accepted final version and include actual screenshots in the writeup; fix any findings.
-2. Update the existing writeup by filling placeholders without changing its original formatting or prompts.
-3. After user accepts this preview, publish the accepted version to GitHub Pages and verify the live URL.
-4. Submit the final writeup through Canvas. A Google Doc submission must be viewable by anyone at U-M.
+1. Run WAVE on all four published pages and capture each result with its live URL visible. Replace the local/unconfirmed WAVE screenshots in Appendix A.
+2. Review redundant-link alerts and finish any required manual accessibility checks. Automated zero-error results do not prove full compliance.
+3. Submit the completed writeup through Canvas. A Google Doc submission must be viewable by anyone at U-M.
 
 No JavaScript framework, animation library, or new runtime dependency was added.
