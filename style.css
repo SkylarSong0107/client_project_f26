@@ -192,9 +192,7 @@ main > section:first-of-type + section {
     order: 2;
 }
 
-.media-section > .section-body,
-.media-section > .point-cards,
-.media-section > .choice-cards {
+.media-section > .section-body {
     flex: 1 0 100%;
     order: 3;
 }
@@ -219,12 +217,6 @@ main > section:first-of-type + section {
 .media-section.media-right > .intro-gallery,
 .media-section.media-right > figure {
     order: 2;
-}
-
-.media-section > .section-overview .point-cards,
-.media-section > .section-overview > ul:not(.point-cards),
-.media-section > .section-overview > ol:not(.point-cards) {
-    margin-top: 0.85rem;
 }
 
 .intro-copy {
@@ -279,32 +271,6 @@ main li + li {
     margin-top: 0.45rem;
 }
 
-.point-cards,
-.choice-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr));
-    gap: 0.8rem;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.point-cards > li,
-.choice-cards > div {
-    min-width: 0;
-    margin: 0;
-    padding: 1rem;
-    border: 1px solid var(--line);
-    border-top: 0.18rem solid var(--maize);
-    background: var(--paper);
-}
-
-.choice-cards > div {
-    display: flex;
-    flex-direction: column;
-    gap: 0.4rem;
-}
-
 main figure {
     min-width: 0;
     max-width: 100%;
@@ -340,17 +306,40 @@ main figcaption {
 
 main > section.home-pathways {
     grid-column: 1 / -1;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr;
     align-content: start;
     align-items: start;
     gap: 0.9rem;
 }
 
+/* Short guidance and resource lists stay plain; only longer explanations pair with photos. */
+main > section.prep-goals {
+    grid-column: 1;
+    max-width: 31rem;
+}
+
+main > section.prep-process,
+main > section.prep-questions,
+main > section.prep-resources,
+main > section.starting-steps,
+main > section.starting-topics,
+main > section.starting-resources,
+main > section.partner-choice {
+    grid-column: 1 / -1;
+}
+
+main > section.partner-choice > .section-body {
+    max-width: 72rem;
+}
+
 .pathways-lede {
-    order: 2;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 28rem), 1fr));
+    align-items: end;
+    gap: 1rem 2rem;
+    grid-column: 1 / -1;
     align-self: center;
-    flex: 1 1 25rem;
 }
 
 .pathways-lede h2 {
@@ -358,8 +347,7 @@ main > section.home-pathways {
 }
 
 .pathway-list {
-    flex: 1 0 100%;
-    order: 3;
+    grid-column: 1 / -1;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
     gap: 0.9rem;
@@ -371,6 +359,7 @@ main > section.home-pathways {
 .pathway-list li {
     display: block;
     min-width: 0;
+    margin: 0;
     padding: 1rem;
     border-left: 0.16rem solid var(--maize);
     background: var(--paper);
@@ -449,14 +438,6 @@ main > p a {
 main > p a:hover {
     background: var(--blue);
     color: var(--paper);
-}
-
-dl.choice-cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr));
-    gap: 0.8rem;
-    padding: 0;
-    list-style: none;
 }
 
 dt {
