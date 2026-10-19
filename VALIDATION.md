@@ -32,3 +32,14 @@ Photo and layout revision, October 19, 2026:
 - No build step is needed for this static HTML/CSS website; latest files run on the local HTTP preview at port 4173.
 - WAVE, axe, and external HTML validation have not been rerun for this revision.
 - Production deployment is pending user acceptance of this preview, as requested.
+
+Rubric and layout revision, October 19, 2026 (second review):
+
+- Read Canvas requirements and full 50-point rubric directly. Found and removed prohibited width media queries; only prefers-reduced-motion remains.
+- Static HTML/CSS preview runs locally without a build tool. Grid uses available width to switch columns, with source text before images on mobile.
+- All first photo groups now on the right on desktop. Single-image columns enlarged to half the content area; images capped at 25rem high.
+- Partner choice uses separated topic/recommendation rows. Footer focus contrast improved. Image filenames normalized to lowercase.
+- W3C Nu: all four HTML files returned an empty messages list.
+- Chrome at 390px: all four document widths equal 390px and every content image loads; first text precedes its photos.
+- WAVE and axe screenshots remain outstanding; no claim of full rubric compliance or guaranteed full marks.
+- Production release remains pending user approval.
