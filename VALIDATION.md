@@ -67,3 +67,10 @@ Accessibility evidence supplied, October 19, 2026:
 - Automated results do not establish manual accessibility compliance. Redundant-link alerts require review.
 - Updated existing writeup answers using simple English. The repository document omits personal contact details; the local submission copy includes the supplied contacts, date, 11 hours, and $1,210 total.
 - No website source changed in this evidence update; no new site deployment required.
+
+Updated WAVE evidence, October 19, 2026, 00:30:
+
+- Replaced all four previous WAVE screenshots with the user's new screenshots (00:30:17, 00:30:35, 00:30:42, 00:30:50). Counts are unchanged: 0 errors, 0 contrast errors, and 1/1/1/3 redundant-link alerts.
+- Preparing screenshot shows a GitHub Pages hover link. Browser address bars are not included, so the exact current page URLs are not independently visible in these WAVE images. Removed the obsolete local-address statement about the replaced Starting screenshot.
+- Appendix A retains the four live axe screenshots. Manual accessibility results have not been supplied.
+- Updated submission and sanitized repository copies; website source unchanged.
