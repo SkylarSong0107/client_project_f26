@@ -74,3 +74,9 @@ Updated WAVE evidence, October 19, 2026, 00:30:
 - Preparing screenshot shows a GitHub Pages hover link. Browser address bars are not included, so the exact current page URLs are not independently visible in these WAVE images. Removed the obsolete local-address statement about the replaced Starting screenshot.
 - Appendix A retains the four live axe screenshots. Manual accessibility results have not been supplied.
 - Updated submission and sanitized repository copies; website source unchanged.
+
+Manual keyboard acceptance, October 19, 2026:
+
+- User confirmed that all four pages passed the keyboard checklist provided in chat: skip link, logical Tab order, visible focus, Enter activation, reverse navigation with Shift+Tab, no keyboard traps, and accessible footer links.
+- This is user-performed verification, not an additional agent-run test. It does not claim screen-reader testing or complete WCAG conformance.
+- Updated both writeup copies to record the completed keyboard checks. Website source unchanged.
