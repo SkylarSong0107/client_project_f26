@@ -14,3 +14,11 @@ Visual review on October 18, 2026:
 - Confirmed the home stage guidance cards have no images; short guidance and resource lists are plain sections; the long introductory and campus-partner explanations pair with supplied photos.
 - Confirmed campus-partner photos alternate left and right across the three organization sections.
 - Automated HTML, WAVE, and axe checks have not been rerun for this visual revision.
+
+Photo sizing revision, October 18, 2026:
+
+- Eight content photos are unique across all four pages; all local image files and alt text are present.
+- Partner descriptions, usage lists, and links now share one text column with an alternating photo column.
+- Desktop photos are capped at 24rem / 36% width and 17rem height, with compact mobile sizing.
+- git diff --check passed. Current visual review could not run: sandbox blocked the local HTTP server; browser blocks file URLs.
+- No production deployment performed; user review remains pending.

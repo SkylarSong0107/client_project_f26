@@ -489,3 +489,30 @@ main :target {
         scroll-behavior: auto;
     }
 }
+
+/* Compact editorial photos: leave more room for the reading column. */
+.media-section > .section-overview,
+.media-section > .intro-copy {
+    flex: 1 1 30rem;
+    max-width: none;
+}
+.media-section > .section-image,
+.media-section > figure,
+.media-section > .intro-gallery {
+    flex: 0 1 24rem;
+    max-width: 36%;
+}
+main figure img { max-height: 17rem; }
+@media (max-width: 800px) {
+    .media-section > .section-image,
+    .media-section > figure,
+    .media-section > .intro-gallery {
+        flex-basis: 100%;
+        width: 100%;
+        max-width: 26rem;
+        margin-inline: auto;
+    }
+    .media-section > .section-overview,
+    .media-section > .intro-copy { flex-basis: 100%; }
+    main figure img { max-height: 15rem; }
+}
