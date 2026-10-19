@@ -87,3 +87,9 @@ Manual keyboard acceptance, October 19, 2026:
 - Preserved template wording and formatting, project facts, cost figures, and all eight accessibility screenshots. Public copy continues to omit personal contact details.
 - Rendered the submission document and inspected all 10 pages. Restored the Appendix introduction's existing font formatting and inspected the changed page; the remaining nine rendered pages were identical.
 - Documentation only; website source and deployment unchanged. No new accessibility scan is claimed.
+
+## October 19, 2026 — Explicit response to first-deliverable feedback
+- Added a paragraph at the end of the final written answer identifying the instructor's two concerns and the corresponding revisions: clearer links to client goals and explanations of accessibility features and their users.
+- Preserved existing text, run formatting, template, costs, and screenshots.
+- Rendered the updated 10-page document. Inspected changed pages 5 and 6; the other eight pages are pixel-identical to the previously inspected version. The original table retains its automatic page-break behavior.
+- Documentation-only update; no deployment changes.
