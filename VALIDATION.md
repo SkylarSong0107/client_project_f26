@@ -93,3 +93,7 @@ Manual keyboard acceptance, October 19, 2026:
 - Preserved existing text, run formatting, template, costs, and screenshots.
 - Rendered the updated 10-page document. Inspected changed pages 5 and 6; the other eight pages are pixel-identical to the previously inspected version. The original table retains its automatic page-break behavior.
 - Documentation-only update; no deployment changes.
+
+## October 19, 2026 — Small first-person wording adjustment
+- Rephrased two sentences in the feedback paragraph to describe what I learned and how I explained my choices.
+- Retained all other content and formatting. Rendered 10 pages; inspected changed pages 5 and 6, with the remaining eight identical to the reviewed version.
