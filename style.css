@@ -170,6 +170,22 @@ main > section:first-of-type + section {
     border-top: 0;
 }
 
+main > section.prep-goals {
+    grid-column: 1;
+    width: min(100%, 30rem);
+    justify-self: start;
+    padding: clamp(1rem, 2vw, 1.35rem);
+    border: 1px solid var(--line);
+    border-top: 0.18rem solid var(--maize);
+    background: var(--paper);
+}
+
+main > section.prep-process,
+main > section.prep-questions,
+main > section.prep-resources {
+    grid-column: 1 / -1;
+}
+
 .intro-copy {
     min-width: 0;
     max-width: 42rem;
@@ -327,6 +343,10 @@ main > aside {
     border-top: 0.18rem solid var(--maize);
     border-bottom: 1px solid var(--line);
     background: transparent;
+}
+
+main > aside p {
+    max-width: none;
 }
 
 main > aside h2 {
