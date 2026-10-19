@@ -80,3 +80,10 @@ Manual keyboard acceptance, October 19, 2026:
 - User confirmed that all four pages passed the keyboard checklist provided in chat: skip link, logical Tab order, visible focus, Enter activation, reverse navigation with Shift+Tab, no keyboard traps, and accessible footer links.
 - This is user-performed verification, not an additional agent-run test. It does not claim screen-reader testing or complete WCAG conformance.
 - Updated both writeup copies to record the completed keyboard checks. Website source unchanged.
+
+## October 19, 2026 — Writeup language revision
+- Reviewed the student's actual previous Canvas submission and instructor feedback.
+- Revised the five written answers and Appendix introduction with varied sentence lengths, common vocabulary, and clearer explanations of design choices.
+- Preserved template wording and formatting, project facts, cost figures, and all eight accessibility screenshots. Public copy continues to omit personal contact details.
+- Rendered the submission document and inspected all 10 pages. Restored the Appendix introduction's existing font formatting and inspected the changed page; the remaining nine rendered pages were identical.
+- Documentation only; website source and deployment unchanged. No new accessibility scan is claimed.
