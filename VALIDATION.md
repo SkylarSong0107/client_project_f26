@@ -97,3 +97,8 @@ Manual keyboard acceptance, October 19, 2026:
 ## October 19, 2026 — Small first-person wording adjustment
 - Rephrased two sentences in the feedback paragraph to describe what I learned and how I explained my choices.
 - Retained all other content and formatting. Rendered 10 pages; inspected changed pages 5 and 6, with the remaining eight identical to the reviewed version.
+
+## October 19, 2026 — Light first-person revision
+- Added a small amount of first-person wording across the five responses and Appendix introduction, using varied openings rather than consecutive sentences beginning with I.
+- Preserved the template, contact handling, costs, and eight embedded screenshots.
+- Rendered the 10-page submission and reviewed changed pages 2–6; the remaining pages match the prior reviewed render. No website changes.
