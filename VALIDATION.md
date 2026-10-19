@@ -43,3 +43,11 @@ Rubric and layout revision, October 19, 2026 (second review):
 - Chrome at 390px: all four document widths equal 390px and every content image loads; first text precedes its photos.
 - WAVE and axe screenshots remain outstanding; no claim of full rubric compliance or guaranteed full marks.
 - Production release remains pending user approval.
+
+Partner links and submission preparation, October 19, 2026:
+
+- Partner comparison now links to Ginsberg, C-SEED, and U-M Library instruction/support; destinations match the existing resource sections.
+- Each main element is programmatically focusable via tabindex=-1 for the skip link. It does not create an extra Tab stop.
+- Latest four HTML pages revalidated with W3C Nu: no messages. Referenced image paths match Git-tracked case-sensitive filenames.
+- Updated only filled template answers in the original writeup; retained original prompts, styles, and cost table. Rendered all five pages and inspected them. Template table pagination retained to honor format preservation.
+- WAVE/axe and personal time/cost entries intentionally left to the user.

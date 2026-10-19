@@ -10,7 +10,7 @@ Source: Canvas assignment 3188410, Client Project - Mobile View Complete (50 poi
 | Footer | 2 | Identical shared content across four pages; focus outline adjusted for navy background. |
 | Look and Feel | 8 | Navy/maize branding, consistent typography, larger unique photos, first photos on right, alternating following rows, structured partner comparison. Visual grade is subjective. |
 | Accessibility | 10 | Four HTML pages passed W3C Nu with no messages. Descriptive alt text and reduced-motion handling present. Current WAVE and axe checks/screenshots are still required; full marks cannot be claimed. |
-| Mobile Deliverable Writeup | 20 | Existing filled template is available, but must be updated with current validation screenshots and final published version. User-specific statements such as time spent must be accurate. Not certified complete. |
+| Mobile Deliverable Writeup | 20 | Design answers updated in the original template using simple English; original prompts and formatting retained. User must add current validation screenshots, actual date/contact information and time/cost entries. Final published status must be updated after approval. |
 
 ## Deduction checks
 
